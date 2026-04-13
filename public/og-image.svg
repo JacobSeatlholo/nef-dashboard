@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F4F2ED"/>
+
+  <!-- Dot grid -->
+  <defs>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#C4C1BA" opacity="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Navy accent bar left -->
+  <rect x="0" y="0" width="8" height="630" fill="#1B3A5C"/>
+
+  <!-- Gold accent bar top -->
+  <rect x="0" y="0" width="1200" height="6" fill="#9A7B2E"/>
+
+  <!-- Logo mark -->
+  <rect x="60" y="60" width="48" height="48" rx="10" fill="#1B3A5C"/>
+  <polyline points="72,96 80,82 88,88 96,72 104,78 112,64" stroke="#9A7B2E" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Brand name -->
+  <text x="122" y="94" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#1A1915">FundingStats</text>
+  <text x="336" y="94" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#9A7B2E">ZA</text>
+
+  <!-- Tagline -->
+  <text x="60" y="130" font-family="Arial, sans-serif" font-size="14" fill="#6B6860" letter-spacing="2">SOUTH AFRICA'S PUBLIC DEVELOPMENT FUNDING INTELLIGENCE</text>
+
+  <!-- Main headline -->
+  <text x="60" y="220" font-family="Georgia, serif" font-size="52" font-weight="900" fill="#1A1915">The maths that</text>
+  <text x="60" y="280" font-family="Georgia, serif" font-size="52" font-weight="900" fill="#1A1915">no press release</text>
+  <text x="60" y="340" font-family="Georgia, serif" font-size="52" font-weight="900" fill="#9A7B2E">will show you.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="375" x2="560" y2="375" stroke="#E2DDD5" stroke-width="1"/>
+
+  <!-- NEF stat -->
+  <rect x="60" y="400" width="320" height="140" rx="12" fill="white" stroke="#E2DDD5" stroke-width="1"/>
+  <rect x="60" y="400" width="320" height="6" rx="3" fill="#9A7B2E"/>
+  <text x="80" y="432" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#9A7B2E" letter-spacing="1.5">NEF — CUMULATIVE (PQ705)</text>
+  <text x="80" y="478" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#1E6644">R113,616</text>
+  <text x="80" y="504" font-family="Arial, sans-serif" font-size="13" fill="#6B6860">cost per job · 31,654 jobs created</text>
+  <text x="80" y="524" font-family="Arial, sans-serif" font-size="13" fill="#6B6860">R3.59B total disbursed · 392 companies</text>
+
+  <!-- IDC stat -->
+  <rect x="400" y="400" width="320" height="140" rx="12" fill="white" stroke="#E2DDD5" stroke-width="1"/>
+  <rect x="400" y="400" width="320" height="6" rx="3" fill="#9B2020"/>
+  <text x="420" y="432" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#9B2020" letter-spacing="1.5">IDC — 2024/25 (AUDITED)</text>
+  <text x="420" y="478" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#9B2020">R1,036,000</text>
+  <text x="420" y="504" font-family="Arial, sans-serif" font-size="13" fill="#6B6860">cost per job · 15,732 jobs created/saved</text>
+  <text x="420" y="524" font-family="Arial, sans-serif" font-size="13" fill="#6B6860">R16.3B disbursed · audited figures</text>
+
+  <!-- Efficiency badge -->
+  <rect x="744" y="400" width="180" height="140" rx="12" fill="#F9F4E8" stroke="#E2CFA0" stroke-width="1"/>
+  <text x="834" y="455" font-family="Arial, sans-serif" font-size="12" fill="#7A5F20" text-anchor="middle" letter-spacing="1">EFFICIENCY GAP</text>
+  <text x="834" y="510" font-family="Georgia, serif" font-size="54" font-weight="900" fill="#9A7B2E" text-anchor="middle">~9×</text>
+  <text x="834" y="532" font-family="Arial, sans-serif" font-size="11" fill="#9A7B2E" text-anchor="middle">in NEF's favour</text>
+
+  <!-- Right side chart bars (decorative) -->
+  <rect x="960" y="180" width="40" height="200" rx="4" fill="#1B3A5C" opacity="0.15"/>
+  <rect x="1010" y="240" width="40" height="140" rx="4" fill="#1B3A5C" opacity="0.15"/>
+  <rect x="1060" y="200" width="40" height="180" rx="4" fill="#1B3A5C" opacity="0.15"/>
+  <rect x="1110" y="160" width="40" height="220" rx="4" fill="#9A7B2E" opacity="0.4"/>
+
+  <rect x="960" y="280" width="40" height="100" rx="4" fill="#1B3A5C" opacity="0.35"/>
+  <rect x="1010" y="310" width="40" height="70" rx="4" fill="#1B3A5C" opacity="0.35"/>
+  <rect x="1060" y="270" width="40" height="110" rx="4" fill="#1B3A5C" opacity="0.35"/>
+  <rect x="1110" y="250" width="40" height="130" rx="4" fill="#9A7B2E" opacity="0.7"/>
+
+  <!-- Source note -->
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="12" fill="#9A9790">Sources: PQ705 Parliamentary Data (dtic.gov.za) · IDC Audited Annual Financial Statements 2024/25 (idc.co.za) · Independent analysis</text>
+
+  <!-- URL -->
+  <text x="1140" y="590" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1B3A5C" text-anchor="end">fundingstatssa.online</text>
+</svg>
